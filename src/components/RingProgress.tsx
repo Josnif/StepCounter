@@ -28,7 +28,7 @@ const RingProgress = ({ radius = 100, strokeWidth = 30, progress=0.5}: RingProgr
   }))
   
   return (
-    <View style={{ width: radius * 2, height: radius * 2 }}>
+    <View style={{ width: radius * 2, height: radius * 2, alignSelf: 'center' }}>
       <SVG style={{flex: 1}}>
         <Circle 
           r={innerRadius}
